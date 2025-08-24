@@ -1,13 +1,20 @@
 .btn {
-  background-color: blue;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: transform 0.15s ease, background 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #2563eb; /* blue-600 */
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #4338ca, #2563eb);
+}
+
+.btn:active {
+  transform: scale(0.97);
 }

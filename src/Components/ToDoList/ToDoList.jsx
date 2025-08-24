@@ -1,5 +1,5 @@
 import React from "react";
-import TodoCard from "../TodoCard/TodoCard";
+import TodoCard from "../ToDoCard/ToDoCard";
 import styles from "./TodoList.module.css";
 
 function TodoList({ todos, onDelete }) {

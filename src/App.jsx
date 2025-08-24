@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import TodoList from "./Components/TodoList/TodoList";
+//import TodoList from "./Components/TodoList/TodoList";
+import TodoList from "./Components/ToDoList/ToDoList";
 import Modal from "./Components/Modal/Modal";
 import Button from "./Components/Button/Button";
 
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: 500, justifyContent: "center", margin: "0 auto", padding: "1rem" }}>
-      <h1>Todo App ✅</h1>
+      <h1>Todo App</h1>
 
       <Button onClick={() => setShowModal(true)}>+ Add Todo</Button>
 
